@@ -1,0 +1,11 @@
+@media (max-width: 900px){
+  .hero__content{grid-template-columns:1fr}
+  .products-grid{grid-template-columns:repeat(2,1fr)}
+  .categories__grid{grid-template-columns:repeat(2,1fr)}
+  .menu-toggle{display:block}
+  .nav{display:none;position:absolute;right:16px;top:64px;background:#fff;border:1px solid var(--border);border-radius:12px;padding:10px}
+  .nav.show{display:block}
+}
+@media (max-width: 520px){
+  .products-grid{grid-template-columns:1fr}
+}

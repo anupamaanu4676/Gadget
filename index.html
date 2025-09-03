@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Gadget Store - Buy the latest gadgets online" />
+  <title>Gadget Store — Home</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/responsive.css" />
+  <script defer src="js/main.js"></script>
+</head>
+<body>
+  <header class="header">
+    <div class="container header__inner">
+      <a href="index.html" class="logo">Gadget<span>Store</span></a>
+      <nav class="nav" id="nav">
+        <a href="index.html">Home</a>
+        <a href="products.html">Products</a>
+        <a href="cart.html">Cart <span class="cart-count" id="navCartCount">0</span></a>
+        <a href="login.html" id="navAuthLink">Login</a>
+        <a href="admin.html" id="navAdminLink" class="hidden">Admin</a>
+      </nav>
+      <button class="menu-toggle" id="menuToggle" aria-label="Open Menu">☰</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero__content">
+        <div>
+          <h1>Upgrade your tech game.</h1>
+          <p>Shop curated gadgets with fast shipping & secure checkout.</p>
+          <a href="products.html" class="btn btn--primary">Shop Now</a>
+        </div>
+        <img src="images/products/placeholder.svg" alt="Gadgets" class="hero__image"/>
+      </div>
+    </section>
+
+    <section class="categories container">
+      <h2 class="section-title">Shop by Category</h2>
+      <div class="grid categories__grid" id="homeCategories">
+        <!-- Filled by JS -->
+      </div>
+    </section>
+
+    <section class="container">
+      <h2 class="section-title">Popular Products</h2>
+      <div class="grid products-grid" id="popularProducts">
+        <!-- Filled by JS -->
+      </div>
+    </section>
+
+    <section class="newsletter">
+      <div class="container newsletter__inner">
+        <h3>Stay in the loop</h3>
+        <p>Get product drops, offers, and tips.</p>
+        <form id="newsletterForm" class="newsletter__form">
+          <input type="email" placeholder="you@example.com" required />
+          <button class="btn btn--secondary" type="submit">Subscribe</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p>© <span id="year"></span> GadgetStore. All rights reserved.</p>
+      <div class="socials">
+        <a href="#" aria-label="Twitter">Twitter</a>
+        <a href="#" aria-label="Instagram">Instagram</a>
+        <a href="#" aria-label="YouTube">YouTube</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

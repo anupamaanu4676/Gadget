@@ -1,0 +1,4 @@
+.admin .card{margin-bottom:16px}
+.admin table{width:100%;border-collapse:collapse}
+.admin th,.admin td{border-bottom:1px solid var(--border);padding:10px;text-align:left;font-size:.95rem}
+.admin .actions button{margin-right:6px}
